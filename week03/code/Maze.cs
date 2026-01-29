@@ -66,7 +66,7 @@ public class Maze
     /// </summary>
     public void MoveUp()
     {
-        // TODO: verify this is correct
+       
         if (_mazeMap[(_currX, _currY)][2] == true)
         {
             _currY = _currY - 1;
@@ -83,7 +83,7 @@ public class Maze
     /// </summary>
     public void MoveDown()
     {
-        // copied from MoveUp, changed index
+        
         if (_mazeMap[(_currX, _currY)][3] == true)
         {
             _currY = _currY + 1;
